@@ -53,5 +53,5 @@ jobs:
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
         heroku-api-key: ${{secrets.API_KEY}}
-        heroku-app-name: web-calculator-hse-pi
+        heroku-app-name: "web-calculator-hse-pi"
         heroku-email: ${{secrets.EMAIL_NAME}}
